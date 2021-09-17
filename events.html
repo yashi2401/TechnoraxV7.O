@@ -39,7 +39,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
 
   <!-- TITLE -->
-  <title>IEEE | Technorax V7.0</title>
+  <title>IEEE | Technorax V7.O</title>
 
 </head>
 
@@ -69,6 +69,7 @@
           <a class="nav-link" href="index.html">Events</a>
         </li>
       </ul>
+    </div>
   </nav>
 
   <header>
@@ -81,41 +82,38 @@
 
 
     <!--EVENTS SECTION-->
-    <div class="sections">
+    <div id="events" class="sections">
+      <a class="anchor-class" style="text-decoration: none;" href="events.html">
+        <h1 class="headings"><span class="black-heading"> OUR EVENTS</span> </h1>
+      </a>
       <div class="event-header">
-        <div class="event-category">
-          <h5 class="header-content">ALL EVENTS </h5>
+        <div class="event-category" id="all">
+          <h5 class="header-content" id="all-event-heading" onclick="allcontent()">ALL EVENTS </h5>
+        </div>
+        <div id="thacks">
+          <h5 class="header-content" id="thacks-heading" onclick="thacks()">T-HACKS</h5>
+        </div>
+        <div id="recon-o-rax">
+          <h5 class="header-content" id="rec-heading" onclick="recno()">SELL-IT-OFF</h5>
         </div>
       </div>
-      <div>
+      <div id="all-events-content" data-aos="zoom-in-up">
         <img class="event-images" src="Images/1.gif">
         <img class="event-images" src="Images/event.jpeg">
       </div>
-
-      <div class="event-header" style="margin-top:9rem;">
-        <h5 id="lower-headers" class="header-content" data-aos="fade-left">T-HACK</h5>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-6 text-center">
-        <img class="event-images" src="Images/1.gif" style="width:50%; margin-bottom:25px;">
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-        <p class="text-justify">T-Hacks is a 24-hour tech hackathon. In this event, different kinds of themes will be given suiting to developers of all domains. Every team chooses one theme and tries to build solutions for real-world problems. Prizes will be distributed based on their performance. This competition will enhance problem-solving skills and boost the morale of the participants. It will also motivate the students to think innovatively.</p>
+      <div id="thacks-content" data-aos="zoom-in-up">
+        <img class="event-images" src="Images/1.gif">
+        <div class="sub-event-content">
+          <p class="text-justify">T-Hacks is a 24-hour tech hackathon. In this event, different kinds of themes will be given suiting to developers of all domains. Every team chooses one theme and tries to build solutions for real-world problems. Prizes will be distributed based on their performance. This competition will enhance problem-solving skills and boost the morale of the participants. It will also motivate the students to think innovatively.</p>
         </div>
       </div>
-
-
-      <div class="event-header" style="margin-top:9rem;">
-        <h5 id="lower-headers" class="header-content" data-aos="fade-left">SELL US IF YOU CAN</h5>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-6 text-center">
-        <img class="event-images" src="Images/event.jpeg" style="width:50%; margin-bottom:25px;">
+      <div id="rec-content" data-aos="zoom-in-up">
+        <img class="event-images" src="Images/event.jpeg">
+        <div class="sub-event-content">
+          <p class="text-justify">The competition is divided into two rounds. Firstly, each team is required to bring a unique product idea and will get shortlisted on the basis of their concept. Next, they have to try and deduce some tricks and techniques through which they can sell their product in the most effortless way. They have to make presentations to explain the methods they are adopting and convince a panel of judges to buy their product. Exciting prizes await them at the end of the contest. This competition will inculcate marketing skills in the participants and will also curate their creativity.</p>
         </div>
-        <div class="col-12 col-md-6 col-lg-6">
-        <p class="text-justify">The competition is divided into two rounds. Firstly, each team is required to bring a unique product idea and will get shortlisted on the basis of their concept. Next, they have to try and deduce some tricks and techniques through which they can sell their product in the most effortless way. They have to make presentations to explain the methods they are adopting and convince a panel of judges to buy their product. Exciting prizes await them at the end of the contest. This competition will inculcate marketing skills in the participants and will also curate their creativity.
-</div>
       </div>
+    </div>
 
   </main>
 
@@ -165,11 +163,11 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="copy-menu">
+            <!-- <div class="copy-menu">
               <a href="about.html">About Us</a>
               <a href="faq.html">FAQs</a>
               <a href="contact.html">Contact Us</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
