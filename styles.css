@@ -2,6 +2,10 @@
   scroll-behavior: smooth;
 }
 
+.event-page-subevent {
+  justify-content: space-evenly;
+}
+
 .temporary {
   background-color: black;
   justify-content: center;
@@ -744,12 +748,10 @@ height: 250px;
 #thacks-content {
   display: none;
   flex-direction: row;
-  justify-content: space-evenly;
 }
 
 #rec-content {
   display: none;
-  justify-content: space-evenly;
 }
 
 .sub-event-content {
