@@ -870,12 +870,12 @@ height: 250px;
   }
 
   #rec-content {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
   #thacks-content {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
