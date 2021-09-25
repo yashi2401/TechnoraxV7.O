@@ -1150,3 +1150,9 @@ a:focus {
     }
 
 }
+
+.knowmore-btn :hover{
+  text-decoration: none;
+  color: black;
+}
+
