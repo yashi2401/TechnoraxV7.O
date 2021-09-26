@@ -695,7 +695,8 @@ height: 250px;
 
 .sponsor-image {
   margin-right: 1.2rem;
-  height: 13rem;
+  height: auto;
+  width: 13rem;
 }
 
 /* EVENTS */
@@ -847,7 +848,7 @@ height: 250px;
   }
 
   .sponsor-image {
-    height: 10rem;
+    width: 10rem;
   }
 
   .event-header {
@@ -954,7 +955,7 @@ height: 250px;
   }
 
   .sponsor-image {
-    height: 10rem;
+    width: 10rem;
   }
 
   .event-header {
