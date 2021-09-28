@@ -430,23 +430,21 @@ p {
   text-decoration: none;
 }
 
-/* HEADER */
-.header-wrapper {}
 
 /* IEEE DAY */
 #container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
-  padding-left: 100px;
+  text-align: center;
 }
 
 .ieee-photo {
+  display: inline-block;
   width: 60vmin;
   height: 60vmin;
   position: relative;
-  margin-top: 2%
+  margin-top: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .hex-photo {
@@ -540,6 +538,7 @@ li.hex-photo:hover {
     transform: rotate(0)
   }
 }
+
 
 /* SCHEDULE */
 .schedule-tables {
@@ -1015,7 +1014,11 @@ a:focus {
     align-items: center;
     display: -webkit-inline-box;
     overflow: hidden;
-    padding-left: 60px;
+  }
+
+  .ieee-photo {
+    width: 80vmin;
+    height: 80vmin;
   }
 
   .schedule-header {
@@ -1044,7 +1047,7 @@ a:focus {
   }
 
   .table-subheading {
-    font-size: 1.125rem;
+    font-size: 1.225rem;
     margin-bottom: 0.9rem;
     margin-top: 0.9rem;
   }
@@ -1053,7 +1056,10 @@ a:focus {
     margin-bottom: 0;
   }
 
-  .table-col1 .table-col2 {
+  .table-col1 {
+    font-size: 1rem;
+  }
+  .table-col2 {
     font-size: 1rem;
   }
 
@@ -1107,12 +1113,25 @@ a:focus {
     padding-right: 1rem;
   }
 
+  .ieee-photo {
+    width: 90vmin;
+    height: 90vmin;
+  }
+
   .table-subheading {
     font-size: 1.8rem;
   }
 
   .table-content {
     display: grid;
+  }
+
+  .table-col1 {
+    font-size: 1rem;
+  }
+
+  .table-col2 {
+    font-size: 1rem;
   }
 
   .header-content {
@@ -1131,8 +1150,9 @@ a:focus {
     margin: 0;
   }
 
-  #navigator {
-    display: none;
+  .ieee-photo {
+    width: 100vmin;
+    height: 100vmin;
   }
 
   .schedule-header {
