@@ -14,9 +14,6 @@
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- OTHER PAGES -->
-
-
   <!-- FAVICON -->
   <link rel="shortcut icon" href="Images/favicon.ico">
 
@@ -39,12 +36,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
 
   <!-- TITLE -->
-  <title>IEEE | Technorax V7.O</title>
+  <title>Events | Technorax V7.O</title>
 
 </head>
 
 <body>
 
+<!-- NAVBAR -->
   <nav class="navbar navbar-expand-sm sticky-top navbar-fixed">
     <a class="navbar-brand" href="https://ieeeadgitm.com/" target="_blank"><img src="Images/ieeelogo.png" alt="IEEE-LOGO"></a>
 
@@ -57,38 +55,41 @@
     <div class="navbar-collapse collapse" id="collapse-navbar">
       <ul class="nav justify-content-center ml-auto menu-items">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.html" target="_blank">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
+          <a class="nav-link" href="about.html" target="_blank">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Schedule</a>
+          <a class="nav-link" href="index.html" target="_blank">Schedule</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Themes</a>
+          <a class="nav-link" href="index.html" target="_blank">Themes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Prizes</a>
+          <a class="nav-link" href="index.html" target="_blank">Prizes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html" target="_blank">FAQs</a>
         </li>
       </ul>
     </div>
   </nav>
+  <!-- NAVBAR ENDS -->
 
+  <div id="particles-js"></div>
+    <!-- HEADER -->
   <header>
-    <div class="jumbotron" style="height:50vh; background-color:#0f0f0f; border-radius:0;">
-      <h1 class="hero-text text-center">EVENTS</h1>
+    <div class="jumbotron" style="height:50vh; background-color:#000000; border-radius:0;">
+      <h1 class="hero-text text-center"><span class="first-letter">E</span>VENTS</h1>
     </div>
   </header>
+  <!-- HEADER ENDS -->
 
-  <main>
-
-
-    <!--EVENTS SECTION-->
+  <!-- EVENT BODY CONTENT -->
+  <main class="overlay">
     <div id="events" class="sections">
-<!--       <a class="anchor-class" style="text-decoration: none;" href="events.html"> -->
         <h1 class="headings"><span class="black-heading"> OUR EVENTS</span> </h1>
-<!--       </a> -->
       <div class="event-header">
         <div class="event-category" id="all">
           <h5 class="header-content" id="all-event-heading" onclick="allcontent()">ALL EVENTS </h5>
@@ -117,10 +118,11 @@
         </div>
       </div>
     </div>
-
   </main>
+<!-- EVENT BODY CONTENT -->
 
 
+  <!-- FOOTER -->
   <div class="footer">
     <div class="container">
       <div class="row">
@@ -128,55 +130,39 @@
           <div class="footer-about">
             <h3>About Us</h3>
             <p class="text-justify">
-            We are a community of technically active engineering students who aim to learn, share and create. We want to inspire and innovate for a technologically advanced future.
+              We are a community of technically active engineering students who aim to learn, share and create. We want to inspire and innovate for a technologically advanced future.
             </p>
+          </div>
+          <div class="copy-text">
+            <div class="footer-social">
+              <a target="_blank" href="https://www.facebook.com/ieeeadgitm"><i class="fab fa-facebook"></i></a>
+              <a target="_blank" href="https://twitter.com/IeeeAdgitm"><i class="fab fa-twitter-square"></i></a>
+              <a target="_blank" href="mailto:technoraxv7.0@gmail.com"><i class="fas fa-envelope-square"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/ieee-adgitm-student-branch/"><i class="fab fa-linkedin"></i></a>
+              <a target="_blank" href="https://www.instagram.com/ieeeadgitm/?hl=en"><i class="fab fa-instagram"></i></a>
+            </div>
           </div>
         </div>
 
         <div class="col-md-4 col-lg-4 px-4 text-center">
-
-          <img src="Images/Logo.png" alt="Logo" style="width:150px; height:150px;">
+          <img class="footer-logo" src="Images/Logo.png" alt="Logo" style="width:150px; height:150px;">
           <!-- <button type="button" name="button"></button> -->
         </div>
 
         <div class="col-md-4 col-lg-4 px-4">
           <div class="footer-contact">
             <h3>Contact Us</h3>
-            <p class="text-justify"><i class="fa fa-map-marker-alt"></i>FC-26 Dr. Akhilesh Das Gupta Institute Of Technology And Management, Shastri Park New Delhi-110053</p>
-            <p class="text-justify"><i class="fa fa-phone"></i>Isha Nailwal: 99538 60643</p>
-            <p class="text-justify"><i class="fa fa-phone"></i>Ajay Khushwaha: 87008 98609</p>
-            <p class="text-justify"><i class="fa fa-phone"></i>Prachi Gupta: 84391 53017</p>
+            <p class="text-justify"><i class="fa fa-map-marker-alt"></i>FC-26 Dr. Akhilesh Das Gupta Institute Of Technology And Management, Shastri Park New Delhi-110053</p><br>
+            <p><i class="fa fa-phone"></i>Isha Nailwal: 9953860643</p>
+            <p><i class="fa fa-phone"></i>Ajay Khushwaha: 8700898609</p>
+            <p><i class="fa fa-phone"></i>Prachi Gupta: 8439153017</p>
             <p class="text-justify"><i class="far fa-envelope-open"></i>technoraxv7.0@gmail.com</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="copyright">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="copy-text">
-              <div class="footer-social">
-                <a href="https://www.facebook.com/ieeeadgitm"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/IeeeAdgitm"><i class="fab fa-twitter-square"></i></a>
-                <a href="mailto:technoraxv7.0@gmail.com"><i class="fas fa-envelope-square"></i></a>
-                <a href="https://www.linkedin.com/company/ieee-adgitm-student-branch/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/ieeeadgitm/?hl=en"><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <!-- <div class="copy-menu">
-              <a href="about.html">About Us</a>
-              <a href="faq.html">FAQs</a>
-              <a href="contact.html">Contact Us</a>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-  <!-- Footer End -->
+  <!-- FOOTER ENDS -->
 
 
   <!-- JS BUNDLE -->
@@ -184,7 +170,8 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="assets/scripts/wow.js"></script>
+  <script type="text/javascript" src="particles.js"></script>
+  <script type="text/javascript" src="app.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
