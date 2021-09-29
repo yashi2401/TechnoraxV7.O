@@ -837,6 +837,23 @@ li.hex-photo:hover {
   color: black;
 }
 
+.viewmore-btn {
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.viewmore-btn a:hover {
+  text-shadow: 1px 1px 5px white;
+  text-decoration: none;
+  color: black;
+  transform: translate(5px, -5px);
+  transition: all 0.4s ease-out;
+}
+
 /* KNOW MORE BUTTON ENDS */
 /* FOOTER */
 footer a {
