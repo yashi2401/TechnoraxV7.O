@@ -148,6 +148,74 @@ nav a {
 }
 
 /* HEADER */
+.btn-head{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: 12rem;
+}
+.btn-head button{
+  height: 44px;
+  width: 312px;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.jumbotron {
+  margin-bottom: 2rem;
+  border-radius: 0;
+  height: 95vh;
+  display: grid;
+  place-items: center;
+}
+
+.jumbo-bg{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url('Images/header.png');
+  }
+
+.overlay {
+  position: relative;
+}
+
+.left-logo-image{
+  width:5vw;
+}
+
+.hero-image {
+  width: 250px;
+  height: 250px;
+}
+
+.hero-text {
+  color: white;
+  font-size: 5.5rem;
+  align-items: center;
+}
+
+.hero-subtext {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.first-letter {
+  font-size: 7.9rem;
+}
+
+.menu-items li a {
+  font-family: Montserrat;
+  color: white;
+}
+
+.menu-items li a:hover {
+  text-shadow: 2px 2px 3px white;
+}
+
+/* CIRCLES */
 .area {
   background: transparent;
   width: 100%;
@@ -170,7 +238,7 @@ nav a {
   width: 20px;
   height: 20px;
   background: #fff;
-  animation: animate 25s linear infinite;
+  animation: animate 15s linear infinite;
   bottom: -150px;
 }
 
@@ -178,9 +246,9 @@ nav a {
   left: 20%;
   width: 30px;
   height: 30px;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-duration: 12s;
-  border: solid 1px #cc0001;
+  border: solid 4px #cc0001;
   background: transparent;
 }
 
@@ -190,7 +258,7 @@ nav a {
   height: 20px;
   animation-delay: 2s;
   animation-duration: 12s;
-  border: solid 1px #ffffff;
+  border: solid 4px #ffffff;
   background: transparent;
 }
 
@@ -199,26 +267,26 @@ nav a {
   width: 20px;
   height: 20px;
   animation-delay: 4s;
-  border: solid 1px #00ff88;
+  border: solid 4px #00ff88;
   background: transparent;
 }
 
 .circles li:nth-child(4) {
   left: 60%;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   animation-delay: 0s;
-  animation-duration: 18s;
-  border: solid 1px #ffffff;
+  animation-duration: 6s;
+  border: solid 4px white;
   background: transparent;
 }
 
 .circles li:nth-child(5) {
-  left: 75%;
+  left: 25%;
   width: 20px;
   height: 20px;
-  animation-delay: 0s;
-  border: solid 1px blue;
+  animation-delay: 1s;
+  border: solid 4px blue;
   background: transparent;
 }
 
@@ -226,27 +294,27 @@ nav a {
   left: 75%;
   width: 15px;
   height: 15px;
-  animation-delay: 3s;
-  border: solid 1px #00ff88;
+  animation-delay: 6s;
+  border: solid 4px yellow;
   background: transparent;
 }
 
 .circles li:nth-child(7) {
   left: 35%;
-  width: 30px;
-  height: 30px;
-  animation-delay: 7s;
-  border: solid 1px #00ff99;
+  width: 20px;
+  height: 20px;
+  animation-delay: 5s;
+  border: solid 5px green;
   background: transparent;
 }
 
 .circles li:nth-child(8) {
   left: 50%;
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
   animation-delay: 15s;
-  animation-duration: 45s;
-  border: solid 1px blue;
+  animation-duration: 8s;
+  border: solid 4px blue;
   background: transparent;
 }
 
@@ -255,28 +323,28 @@ nav a {
   width: 15px;
   height: 15px;
   animation-delay: 2s;
-  animation-duration: 35s;
-  border: solid 1px red;
+  animation-duration: 6s;
+  border: solid 4px red;
   background: transparent;
 }
 
 .circles li:nth-child(10) {
-  left: 85%;
+  left: 25%;
   width: 15px;
   height: 15px;
   animation-delay: 0s;
-  animation-duration: 11s;
-  border: solid 1px #00ff88;
+  animation-duration: 6s;
+  border: solid 4px lightgreen;
   background: transparent;
 }
 
 .circles li:nth-child(11) {
-  left: 85%;
+  left: 45%;
   width: 15px;
   height: 15px;
   animation-delay: 0s;
-  animation-duration: 11s;
-  border: solid 1px blue;
+  animation-duration: 5s;
+  border: solid 4px yellow;
   background: transparent;
 }
 
@@ -285,18 +353,28 @@ nav a {
   width: 15px;
   height: 15px;
   animation-delay: 0s;
-  animation-duration: 11s;
-  border: solid 1px yellow;
+  animation-duration: 7s;
+  border: solid 4px yellow;
   background: transparent;
 }
 
 .circles li:nth-child(13) {
-  left: 85%;
+  left: 38%;
   width: 15px;
   height: 15px;
-  animation-delay: 0s;
-  animation-duration: 11s;
-  border: solid 1px yellow;
+  animation-delay: 4s;
+  animation-duration: 6s;
+  border: solid 2px yellow;
+  background: transparent;
+}
+
+.circles li:nth-child(14) {
+  left: 42%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 3s;
+  animation-duration: 5s;
+  border: solid 4px blue;
   background: transparent;
 }
 
@@ -314,53 +392,16 @@ nav a {
   }
 }
 
-/* HEADER-WRAPPER */
-.jumbotron {
-  margin-bottom: 2rem;
-  border-radius: 0;
-  height: 95vh;
-  display: grid;
-  place-items: center;
-}
-
-.overlay{
-  position: relative;
-}
-
-.hero-image {
-  width: 250px;
-  height: 250px;
-}
-
-.hero-text {
-  color: white;
-  font-size: 5.5rem;
-  align-items: center;
-}
-
-.hero-subtext {
-  color: white;
-}
-
-.first-letter{
-  font-size: 7.9rem;
-}
-
-.menu-items li a {
-  font-family: Montserrat;
-  color: white;
-}
-
-.menu-items li a:hover {
-  text-shadow: 2px 2px 3px white;
-}
-
 @media only screen and (min-device-width : 668px) and (max-device-width : 1024px) {
   .jumbotron {
     height: 90vh;
     align-content: center;
     display: grid;
     border-radius: 0;
+  }
+
+  .left-logo-image{
+    width:7vw;
   }
 }
 
@@ -372,13 +413,20 @@ nav a {
     border-radius: 0;
   }
 
-  .hero-text {
-    color: white;
-    font-size: 2.5rem;
-    align-items: center;
+  .left-logo-image{
+    width:12vw;
   }
 
-  .first-letter{
+  .hero-text {
+    font-size: 2.95rem;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .first-letter {
     font-size: 5.9rem;
   }
 }
@@ -390,10 +438,12 @@ nav a {
     display: grid;
     border-radius: 0;
   }
-  .first-letter{
+
+  .first-letter {
     font-size: 5.9rem;
   }
 }
+
 
 /* BODY */
 body {
