@@ -407,7 +407,7 @@ nav a {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
   .jumbotron {
-    height: 90vh;
+    height: 75vh;
     align-content: center;
     display: grid;
     border-radius: 0;
