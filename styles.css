@@ -412,6 +412,14 @@ nav a {
     display: grid;
     border-radius: 0;
   }
+  
+  .jumbo-bg{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: 90%; 
+  background-image: url('Images/header.png');
+  }
 
   .left-logo-image{
     width:12vw;
