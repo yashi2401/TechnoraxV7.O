@@ -154,13 +154,27 @@ nav a {
   align-items: center !important;
   justify-content: center !important;
   margin-bottom: 12rem;
+
 }
 .btn-head button{
   height: 44px;
-  width: 312px;
+  width: 215px;
   margin: 10px;
   font-weight: 500;
   font-size: 20px;
+  border-radius: 20px;
+}
+
+.discord-btn{
+  background-color: #9fa4c4;
+background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 94%);
+  border-radius: 17px;
+  border: none;
+  align-items: center;
+  font-family: Montserrat;
+}
+.discord-btn i{
+  font-size: 25px;
 }
 
 .jumbotron {
@@ -186,21 +200,7 @@ nav a {
   width:5vw;
   margin-top: -50px;
 }
-@media only screen and (min-device-width : 668px) and (max-device-width : 1024px){
-  .left-logo-image{
-    margin-top: 220px;
-  }
-}
-@media only screen and (min-device-width : 580px) and (max-device-width : 668px){
-  .left-logo-image{
-    margin-top: 120px;
-  }
-  }
-  @media only screen and (min-device-width : 300px) and (max-device-width : 580px) {
-    .left-logo-image{
-      margin-top: 170px;
-    }
-  }
+
 .hero-image {
   width: 250px;
   height: 250px;
@@ -228,17 +228,6 @@ nav a {
 
 .menu-items li a:hover {
   text-shadow: 2px 2px 3px white;
-}
-.discord-btn{
-  background-color: #9fa4c4;
-background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
-  border-radius: 17px;
-  border: none;
-  align-items: center;
-  font-family: Montserrat;
-}
-.discord-btn i{
-  font-size: 25px;
 }
 /* CIRCLES */
 .area {
@@ -423,50 +412,8 @@ background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
     display: grid;
     border-radius: 0;
   }
-
-  .left-logo-image{
-    width:7vw;
-  }
 }
 
-@media only screen and (min-device-width : 300px) and (max-device-width : 580px) {
-  .jumbotron {
-    height: 90vh;
-    align-content: center;
-    display: grid;
-    border-radius: 0;
-  }
-  
-  .jumbo-bg{
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-position-y: 90%; 
-  background-image: url('Images/header.png');
-  }
-
-  .left-logo-image{
-    width:12vw;
-  }
-
-  .hero-text {
-    font-size: 2.95rem;
-  }
-
-  .hero-subtext {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .first-letter {
-    font-size: 5.9rem;
-  }
-  
-  .btn-head button {
-    margin: 10px;
-    margin-top: 20px;
-  }
-}
 
 @media only screen and (min-device-width : 580px) and (max-device-width : 668px) {
   .jumbotron {
@@ -481,6 +428,41 @@ background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
   }
 }
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
+  .jumbotron {
+    height: 90vh;
+    align-content: center;
+    display: grid;
+    border-radius: 0;
+  }
+
+  .jumbo-bg{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: 90%;
+  background-image: url('Images/header.png');
+  }
+
+  .hero-text {
+    font-size: 2.95rem;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .first-letter {
+    font-size: 5.9rem;
+  }
+
+  .btn-head button {
+    margin: 10px;
+    margin-top: 20px;
+  }
+}
 
 /* BODY */
 body {
