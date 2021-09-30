@@ -197,8 +197,8 @@ background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 94%);
 
 .sell{
 background-image: linear-gradient(315deg, #0cbaba 0%, #380036 94%);
-  border-radius:none;
-  width: 215px;
+  border-radius:0;
+  width: 300px;
 }
 
 .sell::before {
