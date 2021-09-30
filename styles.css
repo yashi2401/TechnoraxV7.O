@@ -405,9 +405,9 @@ nav a {
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 580px) {
   .jumbotron {
-    height: 75vh;
+    height: 100vh;
     align-content: center;
     display: grid;
     border-radius: 0;
@@ -436,6 +436,11 @@ nav a {
 
   .first-letter {
     font-size: 5.9rem;
+  }
+  
+  .btn-head button {
+    margin: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -864,7 +869,7 @@ li.hex-photo:hover {
 }
 
 .theme{
-  box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.50);
 }
 
 .theme:hover{
@@ -1083,7 +1088,7 @@ a:focus {
 
 /* FOOTER ENDS */
 /* RESPONSIVE BODY */
-@media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 580px) {
   .sections {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
