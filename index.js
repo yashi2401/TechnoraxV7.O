@@ -40,20 +40,4 @@ function allcontent() {
   document.getElementById("rec-heading").style.color = "white";
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  new Splide("#card-slider", {
-    type: "loop",
-    perPage: 3,
-    gap: "2em",
-    speed: "400",
-    keyboard: "true",
-    updateOnMove: "true",
-    focus: "center",
-    breakpoints: {
-      600: {
-        perPage: 1
-      }
-    }
-  }).mount();
-});
 
