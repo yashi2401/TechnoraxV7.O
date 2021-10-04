@@ -36,7 +36,11 @@ nav a {
   color: white;
 }
 
-.nav-link:hover{
+.nav-link:focus .nav-link:hover{
+  color: white;
+}
+
+nav a:hover {
   color: white;
 }
 
