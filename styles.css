@@ -749,6 +749,13 @@ li.hex-photo:hover {
 .slick-next:before, .slick-prev:before {
   color: #757675 !important;
 }
+
+.slick-dots li button:before
+    {
+        font-family: 'slick';
+        font-size: 11px;
+    }
+
 .flip-card-inner {
   position: relative;
   width: 100%;
